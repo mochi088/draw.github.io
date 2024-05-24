@@ -72,8 +72,9 @@ function setup() {
 
 
 function draw() {
-    image(gif, 0, 0, 500, 600);
+    image(bg, 0, 0, width, height);
     image(kesi, 850, 375, 50, 60);
+    image(gif, 0, 0, 500, 600);
 
     if (mouseIsPressed === true) {
 
