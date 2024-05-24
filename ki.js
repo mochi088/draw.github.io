@@ -78,9 +78,11 @@ function setup() {
 
 function draw() {
 
-    image(bg, 0, 0, width, height);
+    
     image(tree, 0, 0, 500, 600);
+    image(bg, 0, 0, width, height);
     image(kesi, 850, 375, 50, 60);
+    
 
     if (mouseIsPressed === true) {
         // 今のマウス位置から、前のマウス位置まで線を描く
