@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "昔々ふぉんと";
+  src: url(gomarice_mukasi_mukasi.ttf);
+}
+
+
+body {
+  text-align: center;
+  font-family: '昔々ふぉんと';
+  color: #492700;
+  font-size: 2rem;
+  background-color: #d9f4ff;
+  height: 1100px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background-color: #f9feff;
+  border-radius: 1rem;
+  width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+#container {
+  height: 15rem;
+  background-image: url("banner07.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  padding: 1rem;
+  box-sizing: border-box;
+  /* 中央寄せ */
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#container p {
+  position: relative;
+  bottom: 1.3rem;
+  line-height: 4rem;
+}
+
+#air {
+  box-sizing: border-box;
+  margin: 1rem;
+}
